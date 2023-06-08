@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  overflow: hidden;
+}
+
+a {
+  color: rgba(255, 255, 255, 0.55);
+  font-family: "Lexend Deca", sans-serif;
+  transition: 0.3s ease;
+}
+a:hover {
+  color: white;
+}
+
+.col {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: row;
+  z-index: -1;
+}
+.col img {
+  filter: blur(5px);
+}
+
+.footer {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  border-radius: 20px 20px 0px 0px;
+}
+.footer img {
+  position: absolute;
+  width: 100%;
+}
+.footer .containerF {
+  background: rgba(24, 24, 24, 0.548);
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  padding-top: max(7vw, 7em);
+  width: 100%;
+}
+.footer .containerF .container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.footer .containerF .container .Link {
+  position: relative;
+}
+.footer .containerF .container .Link h1 {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+.footer .containerF .container .Link h1::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -15%;
+  border-radius: max(100vw, 100em);
+  width: 0.5rem;
+  height: 100%;
+  background-image: linear-gradient(160deg, #834DE3 2.88%, #FA56EA 100%);
+  box-shadow: 0px 0px 13px rgba(100, 16, 238, 0.51);
+  transition: 0.6s;
+  z-index: 0;
+}
+.footer .containerF .container .Link ul {
+  padding-left: max(0.8vw, 0.8em);
+}
+.footer .containerF .container .Link ul li {
+  margin-bottom: max(0.6vw, 0.6em);
+}
+.footer .containerF .container .Link ul li a {
+  font-size: max(0.9vw, 0.9em);
+}
+.footer .containerF .container .Others {
+  position: relative;
+}
+.footer .containerF .container .Others h1 {
+  position: relative;
+  color: white;
+}
+.footer .containerF .container .Others h1::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -14%;
+  border-radius: max(100vw, 100em);
+  width: 0.5rem;
+  height: 100%;
+  background-image: linear-gradient(160deg, #834DE3 2.88%, #FA56EA 100%);
+  box-shadow: 0px 0px 13px rgba(100, 16, 238, 0.51);
+  transition: 0.5s;
+  z-index: 0;
+}
+.footer .containerF .container .Others ul {
+  padding-left: max(0.8vw, 0.8em);
+}
+.footer .containerF .container .Others ul li {
+  margin-bottom: max(0.6vw, 0.6em);
+}
+.footer .containerF .container .Others ul li a {
+  font-size: max(0.9vw, 0.9em);
+}
+.footer .containerF .container .Social {
+  position: relative;
+}
+.footer .containerF .container .Social h1 {
+  position: relative;
+  color: white;
+}
+.footer .containerF .container .Social h1::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -4%;
+  border-radius: max(100vw, 100em);
+  width: 0.5rem;
+  height: 100%;
+  background-image: linear-gradient(160deg, #834DE3 2.88%, #FA56EA 100%);
+  box-shadow: 0px 0px 13px rgba(100, 16, 238, 0.51);
+  transition: 0.4s;
+  z-index: 0;
+}
+.footer .containerF .container .Social p {
+  padding-top: max(1vw, 1em);
+  font-size: max(1.3vw, 1.3em);
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+.footer .containerF .container .Social .containerFollow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: max(1vw, 1em);
+  text-align: center;
+}
+.footer .containerF .container .Social .containerFollow .teams {
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer .containerF .container .Social .containerFollow .teams .Hunter {
+  width: max(2vw, 2em);
+  height: max(2vw, 2em);
+  border-radius: max(50vw, 50em);
+  margin: 0 auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.footer .containerF .container .Social .containerFollow .teams h5 {
+  font-size: max(1vw, 1em);
+  font-weight: 700;
+  margin-top: 40px;
+  color: white;
+}
+.footer .containerF .containerCopyRight {
+  display: flex;
+  justify-content: space-around;
+  gap: max(12vw, 12em);
+  align-items: center;
+}
+.footer .containerF .containerCopyRight h1 {
+  background: linear-gradient(270deg, #834DE3 -0.01%, #CA56FA 88.98%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.footer .containerF .containerCopyRight p {
+  color: rgba(255, 255, 255, 0.33);
+}
+.footer .containerF .containerCopyRight h4 {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
